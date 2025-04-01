@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Home Decor Marketplace</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+function readMore() {
+  document.querySelector('.full-text').style.display = 'block';
+  document.querySelector('.read-more').style.display = 'none';
+}
+
+function readLess() {
+  document.querySelector('.full-text').style.display = 'none';
+  document.querySelector('.read-more').style.display = 'block';
+}
+
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="button active"><i class=""></i>About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about-us">
+            <h1>About Us</h1>
+            <div class="preview">
+                <p>We're passionate about helping you turn your house into a home. At Group_2 Home Decor MarketPlace, we specialize in providing a wide range of stylish and functional home décor products to enhance your living space.</p>
+                <button class="read-more" onclick="readMore()">Read More</button>
+                <div class="full-text" style="display: none;">
+                  <p><b>Our Collection Includes:</b><br>
+                    <br>
+                    - Elegant furniture pieces for every room <br>
+                    - Beautiful lighting fixtures to brighten up your space <br>
+                    - Stunning wall art and decals to add a personal touch <br>
+                    - Comforting textiles, such as rugs, throw pillows, and blankets <br>
+                    - Decorative accessories, including vases, centerpieces, and more <br>
+                  </p>
+                  <br>
+
+                  <p> <b>Our Goal:</b><br>
+                    <br>
+
+                    Our mission is to provide you with inspiration, guidance, and the finest home décor products to make your space truly special. Whether you're moving into a new home, redecorating, or simply looking for a fresh update, we're here to help. <br>
+                    
+                    <br>
+                    <b>Why Choose Us:</b><br>
+                    <br>
+                    
+                    - Unique and stylish products to suit every taste and budget <br>
+                    - Excellent customer service and support <br>
+                    - Fast and reliable shipping <br>
+                    - Secure online shopping experience <br> 
+                  </p>
+                  <button class="read-less" onclick="readLess()">Read Less</button>
+                </div>
+              </div>
+            <img src="images/at-wor.jpeg" alt="About Us Image">
+        </section>
+        <section class="team-members">
+            <h2>Meet Our Team</h2>
+            <div class="team-member-grid">
+                <div class="team-member">
+                    <img src="images/team-member1.jpg" alt="Team Member 1">
+                    <h3>Desmond</h3>
+                    <p>Co-Founder</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/team-member2.jpg" alt="Team Member 2">
+                    <h3>Bright</h3>
+                    <p>Co-Founder</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/team-member2.jpg" alt="Team Member 2">
+                    <h3>Zebaot</h3> 
+                    <p>Co-Founder</p>
+                </div>
+            </div>
+            </body>
+            </html>
